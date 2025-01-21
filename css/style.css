@@ -35,9 +35,6 @@ body {
 .nav-links {
   display: flex;
   gap: 32px;
-}
-
-.nav-links {
   list-style-type: none;
 }
 
@@ -239,6 +236,96 @@ body {
   font-size: 15px;
 }
 
+/* Footer Design */
+.footer-container {
+  width: 100%;
+  height: 519px;
+  background-color: #01acfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-cards-container {
+  width: 1160px;
+  height: 222px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.footer-card-one {
+  width: 50%;
+}
+
+.footer-card-two {
+  width: 35%;
+}
+
+.footer-card-three {
+  width: 15%;
+}
+
+.kids-education {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  width: 82px;
+  height: 81px;
+}
+
+.footer-subtitle {
+  text-align: start;
+  font-family: "Quicksand" sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  width: 70%;
+}
+
+.about-school {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Quicksand" sans-serif;
+  color: white;
+  margin: 0;
+  padding-bottom: 32px;
+}
+
+.footer-nav-links {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-nav-links li {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Quicksand" sans-serif;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
 /* Mobile Responsive media query */
 @media screen and (max-width: 576px) {
   /* Navbar style */
@@ -307,9 +394,15 @@ body {
   }
 
   /* Standard Curriculum Design */
+
+  .standard-curriculum-container {
+    width: 100%;
+    height: 100%;
+  }
+
   .cards-container {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: block;
     gap: 0;
     padding: 20px;
@@ -330,5 +423,35 @@ body {
     padding-top: 40px;
     padding-bottom: 20px;
     margin: 0;
+  }
+
+  /* Footer Design */
+
+  .footer-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 40px 20px;
+  }
+
+  .footer-cards-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-card-one,
+  .footer-card-two,
+  .footer-card-three {
+    width: 100%;
+  }
+
+  .footer-subtitle {
+    width: 100%;
+  }
+
+  .footer-social-icons{
+    justify-content: start;
   }
 }
