@@ -149,6 +149,7 @@ body {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 80px;
+  margin: 0;
 }
 
 .cards-container {
@@ -303,5 +304,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  /* Standard Curriculum Design */
+  .cards-container {
+    width: auto;
+    height: auto;
+    display: block;
+    gap: 0;
+    padding: 20px;
+  }
+
+  .sc-card-1,
+  .sc-card-2,
+  .sc-card-3 {
+    width: 100%;
+  }
+
+  .standard-curriculum {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Quicksand" sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0;
   }
 }
