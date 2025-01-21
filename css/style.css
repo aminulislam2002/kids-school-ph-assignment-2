@@ -1,4 +1,80 @@
-.header-container{
-    width: 1160px;
-    height: 62px;
+/* Navbar design */
+
+.header-container {
+  width: 1160px;
+  margin: auto;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 62px;
+  height: 62px;
+}
+
+.logo-container h1 {
+  font-family: "Quicksand", serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+.home > a {
+  text-decoration: none;
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+}
+
+.about > a {
+  text-decoration: none;
+  color: skyblue;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+}
+
+.facilities > a {
+  text-decoration: none;
+  color: #05d4df;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+}
+
+.admission > a {
+  text-decoration: none;
+  color: #5d58ef;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Quicksand", serif;
+}
+
+.contact-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  width: 197px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Quicksand", serif;
 }
