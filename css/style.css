@@ -236,6 +236,173 @@ body {
   font-size: 15px;
 }
 
+/* Our Stories Design */
+
+.our-stories-container {
+  width: 100%;
+  height: 1018px;
+  background-image: linear-gradient(to top, rgba(254, 163, 1, 0.3) 30%, rgba(254, 163, 1, 0) 100%), url("/assets/bg.png");
+}
+
+.our-stories {
+  font-size: 46px;
+  font-weight: bold;
+  font-family: "Quicksand" sans-serif;
+  color: black;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+.our-stories-cards-container {
+  width: 1160px;
+  height: 630px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.flex-item1,
+.flex-item2 {
+  width: 50%;
+  height: auto;
+}
+
+.flex-item1 {
+  background: white;
+  height: 630px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4 {
+  background: white;
+  width: 290px;
+  height: 300px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.story-image {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  margin-bottom: 38px;
+}
+
+.date-card-one {
+  background-color: #95b226;
+  border-radius: 47px;
+  width: 174px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  position: absolute;
+  top: 157px;
+  z-index: 10;
+  left: 38px;
+}
+
+.date-card-two {
+  background-color: #5d58f0;
+  border-radius: 47px;
+  width: 174px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  position: absolute;
+  top: 157px;
+  z-index: 10;
+  left: 38px;
+}
+
+.date-card-three {
+  background-color: #5d58f0;
+  border-radius: 47px;
+  width: 174px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  position: absolute;
+  top: 314px;
+  z-index: 10;
+  left: 38px;
+}
+
+.story-title-one {
+  font-size: 24px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  text-align: start;
+  margin-top: 0;
+}
+
+.story-card-one-content {
+  padding: 38px;
+}
+
+.story-title {
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+.story-card-one-description {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+}
+
+.view-all-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-all-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 197px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Quicksand", serif;
+  margin-top: 80px;
+}
+
 /* Footer Design */
 .footer-container {
   width: 100%;
@@ -451,7 +618,7 @@ body {
     width: 100%;
   }
 
-  .footer-social-icons{
+  .footer-social-icons {
     justify-content: start;
   }
 }
