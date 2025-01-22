@@ -593,13 +593,15 @@ body {
   .standard-curriculum-container {
     width: 100%;
     height: 100%;
+    padding: 16px;
   }
 
   .cards-container {
     width: 100%;
     height: 100%;
-    display: block;
-    gap: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20;
   }
 
   .sc-card-1,
