@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* Navbar design */
@@ -304,6 +305,13 @@ body {
   margin-bottom: 38px;
 }
 
+.story-image-one {
+  width: 100%;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  margin-bottom: 38px;
+}
+
 .date-card-one {
   background-color: #95b226;
   border-radius: 47px;
@@ -341,7 +349,7 @@ body {
 }
 
 .date-card-three {
-  background-color: #5d58f0;
+  background-color: #3cd8e8;
   border-radius: 47px;
   width: 174px;
   height: 38px;
@@ -353,7 +361,7 @@ body {
   font-weight: 500;
   font-family: "Quicksand", sans-serif;
   position: absolute;
-  top: 314px;
+  top: 330px;
   z-index: 10;
   left: 38px;
 }
@@ -572,7 +580,6 @@ body {
     height: 100%;
     display: block;
     gap: 0;
-    padding: 20px;
   }
 
   .sc-card-1,
@@ -592,20 +599,88 @@ body {
     margin: 0;
   }
 
+  /* Oru Stories */
+  .our-stories-container {
+    width: auto;
+    height: auto;
+    padding: 16px;
+  }
+
+  .our-stories-cards-container {
+    width: 100%;
+    height: 100%;
+    padding: 40px auto;
+  }
+
+  .flex-item1 {
+    display: none;
+  }
+
+  .grid-container {
+    gap: 11px;
+  }
+
+  .grid-item1,
+  .grid-item2,
+  .grid-item3,
+  .grid-item4 {
+    background: white;
+    width: 173px;
+    height: 180px;
+  }
+
+  .story-image {
+    width: 173px;
+    height: 105px;
+  }
+
+  .date-card-one {
+    width: 103px;
+    height: 22px;
+    font-size: 9px;
+    top: 99px;
+  }
+
+  .date-card-two {
+    width: 103px;
+    height: 22px;
+    font-size: 9px;
+    top: 99px;
+  }
+
+  .story-title {
+    font-size: 9px;
+  }
+
+  .our-stories {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Quicksand" sans-serif;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+  .view-all-btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
   /* Footer Design */
 
   .footer-container {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     display: block;
-    padding: 40px 20px;
+    padding: 16px;
   }
 
   .footer-cards-container {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
 
   .footer-card-one,
