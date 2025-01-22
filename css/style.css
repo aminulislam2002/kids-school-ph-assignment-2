@@ -237,6 +237,26 @@ body {
   font-size: 15px;
 }
 
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrow-container img {
+  width: 24px;
+  height: 24px;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.arrow-container img:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
+
 /* Our Stories Design */
 
 .our-stories-container {
@@ -597,6 +617,10 @@ body {
     padding-top: 40px;
     padding-bottom: 20px;
     margin: 0;
+  }
+
+  .arrow-container {
+    display: none;
   }
 
   /* Oru Stories */
